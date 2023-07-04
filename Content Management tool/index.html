@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content Management tool</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Happy Blogging- Bharat Intern</h1>
+  <h3>Today blogging has become a major source of passive income for many people,
+    and for creating tons of blogs ,tools are needed to do so.I created this web page to assist me to create a blog by enabling 
+    to add videos ,texts and images .Prompts for adding videos and images will pop up on screen
+    when buttons for adding videos and images are dragged.Hope you have nice experience with the page.
+    
+  </h3>
+  
+  
+  <div id="contentArea" class="droppable"></div>
+  
+  <div id="sidebar">
+    <div class="draggable" draggable="true" data-type="text">Drag me to add text</div>
+    <div class="draggable" draggable="true" data-type="image">Drag me to add an image</div>
+    <div class="draggable" draggable="true" data-type="video">Drag me to add a video</div>
+  </div>
+
+  <div id="addTextSection">
+    <input type="text" id="textInput" placeholder="Enter text">
+    <button id="addTextButton">Add Text</button>
+  </div>
+
+  <button id="saveButton">Save</button>
+  <button id="previewButton">Preview</button>
+
+  <script src="script.js"></script>
+  <div id="player"></div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+
+
+</body>
+</html>
