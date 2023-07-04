@@ -1,0 +1,102 @@
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:lightblue;
+  }
+  h3{
+    font-family: 'Dancing Script', cursive;
+    size: 100px;
+    color:blue;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik', sans-serif;
+  }
+  h1 {
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+ 
+
+  .project {
+    background-color:midnightblue;
+    border-radius: 4px;
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .project input[type="text"],
+  .project textarea,
+  .project input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .project select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .project ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .project ul li {
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .btn-primary {
+    background-color:green;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  .btn-primary:hover,
+  .btn-danger:hover {
+    opacity: 0.8;
+  }
+  
+  .projectCount {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .clearBtn {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  

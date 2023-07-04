@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Management</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Isana</h2>
+        <h3>Isana is a flexible and easy to use platform where all teams can collaborate 
+            and deliver quality work together..and teams can update the project status to 
+            each other and add and delete tasks 
+        </h3>
+        <div id="projects"></div>
+        <div>
+            <input type="text" id="projectName" placeholder="Project Name">
+            <select id="projectStatus">
+                <option value="Not Started">Not Started</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Completed">Completed</option>
+            </select>
+            <button onclick="addProject()" class="btn btn-primary">Add Project</button>
+            <div id="projectCount" class="projectCount">0 projects</div>
+
+        </div>
+    </div>
+
+    <script src="projects.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
